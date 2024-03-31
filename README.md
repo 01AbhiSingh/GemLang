@@ -1,30 +1,23 @@
-GemLang: Q&A Bot with Gemini Language Model
+GemLang: 
+Q&A Bot with Gemini Language Model
 GemLang is a Streamlit application that utilizes the Gemini Language Model API for question-answering. This application allows users to interactively ask questions and receive responses from the Gemini Language Model.
 
 Installation
-Clone the repository: 
+Clone the repository:
+``` git clone https://github.com/01AbhiSingh/gemlang.git ```
 
-bash
-Copy code
-git clone https://github.com/01AbhiSingh/gemlang.git
 Navigate to the project directory:
 
-bash
-Copy code
-cd gemlang
+``` cd gemlang ```
 Install dependencies:
+``` pip install -r requirement.txt ```
 
-bash
-Copy code
-pip install -r requirements.txt
+
 Obtain an API key from the Gemini Language Model API and configure it in the .env file.
 
-Usage
 Run the Streamlit application:
 
-bash
-Copy code
-streamlit run app.py
+``` streamlit run app.py ```
 Access the application in your web browser at http://localhost:8501.
 
 Enter your question in the input field and click "Ask the Question".
